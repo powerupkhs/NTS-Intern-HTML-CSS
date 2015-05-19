@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* NHN Technology Services UIT Development Center */
+
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol,li{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+#wrap{width: 950px;margin: 0 auto; background: #4C5F7D; padding: 30px;}
+#header{height: 220px;background: #57CBC8; padding: 20px;}
+.pro{height:222px;position:relative; width:100%;}
+.pro img{border-radius: 50px;}
+.pro h1{position:absolute; right:15px; bottom:0; color: #fff; font-size: 4em;}
+#container{background: #4C5F7D; margin-top: 15px;}
+#container:after{clear:both;display: block;content:'';}
+#container .content{height: 350px auto;}
+.sound {height:164px; position:relative; margin-bottom: 20px; background: #fff; padding: 20px;}
+.sound h3{position:absolute; left:197px; top:150px; font-size: 2em;}
+.co {margin-top: 15px; margin-bottom: 15px; background: #fff; padding: 20px;}
+.detail{height:204px;position:relative; width:100%; margin-bottom: 25px;}
+.detail h2{position:absolute; left:220px; top:10px; font-size: 3em;}
+.detail h3{position:absolute; left:220px; top:70px; font-size: 2em;}
+.lyrics h3{font-size: 2em;}
+#footer{height: auto;background: #4EC6F8; margin-top: 15px; text-align: center; padding: 20px;}

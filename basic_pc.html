@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/pc.css">
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(function() {
+		$('.sound li').click(function() {
+			$('.co').hide();
+			$('#' + $(this).attr('class')).show();
+		});
+		$(".sound li a").click(function() {
+			$('.sound li a').removeClass('on');
+			$(this).addClass('on');
+		});
+		return false();
+	});
+</script>
+
+</head>
+<body>
+	<div id="wrap">
+		<!-- header -->
+		<div id="header">
+			<div class="pro">
+				<img src="img/KwonHyeSeong.jpg" alt="권혜성의 사진">
+				<h1>권혜성의 음악 창고</h1>
+			</div>
+		</div>
+		<!-- //header -->
+		<!-- container -->
+		<div id="container">
+			<div class="lnb">
+				<div class="sound">
+					<iframe width="100%" height="166" scrolling="no" frameborder="no"
+						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/51963073&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<li class="ses01"><a href="#"><h3>원곡 정보보기</h3></a></li>
+				</div>
+				<div class="sound">
+					<iframe width="100%" height="166" scrolling="no" frameborder="no"
+						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/51963040&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<li class="ses01"><a href="#"><h3>원곡 정보보기</h3></a></li>
+				</div>
+				<div class="sound">
+					<iframe width="100%" height="166" scrolling="no" frameborder="no"
+						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/54840082&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<li class="ses02"><a href="#"><h3>원곡 정보보기</h3></a></li>
+				</div>
+				<div class="sound">
+					<iframe width="100%" height="166" scrolling="no" frameborder="no"
+						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/54840081&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<li class="ses02"><a href="#"><h3>원곡 정보보기</h3></a></li>
+				</div>
+			</div>
+			<div class="rnb">
+				<div class="content">
+					<div id="ses01" class="co">
+						<div class="detail">
+							<img
+								src="http://musicmeta.phinf.naver.net/album/000/211/211011.jpg?type=r204Fll&v=20111104000243"
+								alt="40-Zodiac 앨범 사진">
+							<h2>
+								<a href="http://music.naver.com/album/index.nhn?albumId=211011"
+									target="_blank">Zodiac</a>
+							</h2>
+							<h3>
+								아티스트 : 40<br> 장르 : 알앤비/어반<br> 발매 : 2011.11.04<br>
+								배급 : 인플래닛
+							</h3>
+						</div>
+						<div class="lyrics">
+							<h3>
+								[Verse]<br> 횡단보도건너편에 서있던 그 모습이 예뻐서<br> 신호등이 바뀐 것도 모른 채
+								그 자리에 서 있는 나<br> (저기요, 혹시 연락처 좀 알 수 있나요) 용기 내서 난 말하고 싶은데<br>
+								잘난 것도 하나 없는 나라서 이렇게 이 자리에서<br> <br> [Chorus]<br>
+								I Cry out to you 내 맘은 항상 너 뿐야<br> Baby I Cry out to you Cry
+								Cry Cry Baby Come Back To me<br> <br> [Verse]<br>
+								돌아서는 네 모습을 봤을 때 심장 멎는 줄 알았어<br> 미소 짓는 예쁜 너의 얼굴은 뛰는 내 맘 모르겠지<br>
+								I Just Wanna Fall in love With you 난 정말 그것뿐이야 너와 나<br> 흔한
+								거리의 커플들처럼 사랑할 수 만 있다면<br> <br> [Chours]<br> I Cry
+								out to you 내 맘은 그게 아닌데<br> Cry out to you Cry Cry Cry<br>
+								<br> [Bridge]<br> (널 갖고 싶어) 수많은 사람들 속에 내 맘 따윈 모르겠지<br>
+								홀로 사랑하는 이 아픔을 너는 절대 모르겠지<br> Baby I cry Baby I Cry I Cry
+								Baby I Cry I Cry<br>
+							</h3>
+						</div>
+					</div>
+					<div id="ses02" class="co" style="display:none">
+						<div class="detail">
+							<img
+								src="http://musicmeta.phinf.naver.net/album/000/191/191614.jpg?type=r204Fll&v=20140203154846"
+								alt="긱스-Officially Missing You 앨범 사진">
+							<h2>
+								<a href="http://music.naver.com/album/index.nhn?albumId=191614"
+									target="_blank">Officially Missing You</a>
+							</h2>
+							<h3>
+								아티스트 : 긱스<br> 장르 : 랩/힙합<br> 발매 : 2011.03.09<br>
+								배급 : 다날 엔터테인먼트
+							</h3>
+						</div>
+						<div class="lyrics">
+							<h3>
+								널 기다리던 밤처럼 길고 어둡던 우리 사이 공백<br> 이게 끝이 아니길 바래 I wanna go back<br>
+								너가 원하던 거 다 고친 지금에야 넌 어디로 갔는지<br> 난 홀로 남아 lonely<br> <br>
+								오늘 따라 부는 바람도 참 시린 것 같은데<br> 넌 왜이리 멀쩡해보이는 건지<br> 눈치도 없는
+								너지만 예전처럼만 웃어주면돼<br> <br> 나에겐 너 하나뿐인 걸 너땜에 아파 하는걸<br>
+								널 잊으려고 노력해봐도 잘 안돼 널 미워하는 건<br> 추억속 너에겐 못된 일이라 난 할수가 없어<br>
+								이렇게 널 그리워 하는 날 알고있는지<br> <br> 나에겐 너 하나뿐인 걸 너땜에 아파 하는걸<br>
+								널 잊으려고 노력해봐도 잘 안돼 널 미워하는 건<br> too hard 너무 어려워 날 몰라주는 너도
+								서러워<br> I'm officially missing you officially missing you<br>
+								<br> yeah im officially missing you you know how i've been
+								through<br> 이젠 너와 내가 친구 사이로 남아 내 삶이 전부<br> 진부하게만 느껴져
+								마치 실이 빠진 진주<br> 혹은 가벼운 티슈 우리둘 간에 issue<br> makin' 은 이젠
+								없을거야 넌 아무 느낌도<br> 안나겠지만 서도 나 없는 밤이 긴듯<br> 혼란스럽겠지 나 역시
+								옆구리 시린 just sandle<br> 지루한 스캔들 내 안티팬들이 되버린<br> 니 주위
+								사람과 불리한 game을 하기도 전에<br> over를 쳤지만 just painful<br>
+								yeah I just can do it but can't be single<br> 사랑노랠 들어도
+								where the melodies at<br> 행동 하나하나 모두 다 외로움이 돼<br> so
+								I'm officially missing you<br> 날 떠난 너지만 아직 날 괴롭히네<br>
+								<br> 나에겐 너 하나뿐인 걸 너땜에 아파하는 걸<br> 널 잊으려고 노력해봐도 잘 안돼 널
+								미워하는 건<br> 추억 속 너에겐 못된 일이라 난 할수가 없어<br> 이렇게 널 그리워 하는 날
+								알고있는지<br> <br> 나에겐 너 하나뿐인 걸 너땜에 아파 하는걸<br> 널 잊으려고
+								노력해봐도 잘 안돼 널 미워하는 건<br> too hard 너무 어려워 날 몰라주는 너도 서러워<br>
+								I'm officially missing you officially missing you<br>
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //container -->
+		<!-- footer -->
+		<div id="footer">
+			<h3>
+				NHN Technology Services | Intern Kwon Hye-Seong | 문의 : <a
+					href="mailto:powerupkhs@naver.com">powerupkhs@naver.com</a><br>
+				CopyRight(c) by nobody. All rights reserved.
+			</h3>
+		</div>
+		<!-- //footer -->
+	</div>
+	</div>
+</body>
+</html>
