@@ -17,9 +17,9 @@ a:hover,a:active,a:focus{text-decoration:underline}
 .pro h1{position:absolute; right:15px; bottom:0; color: #fff}
 #container{background: #4C5F7D; margin-top: 15px;}
 #container:after{clear:both;display: block;content:'';}
-#container .lnb{float: left;width: 47%; height: 350px auto; background: #fff; margin-right: 15px; padding: 10px;}
-.sound {height:164px;position:relative; width:100%; margin-bottom: 20px;}
-.sound h3{position:absolute; left:180px; top:142px;}
+#container .lnb{float: left;width: 47%; height: 350px auto; margin-right: 15px;}
+.sound {height:164px;position:relative; width:100%; margin-bottom: 15px; padding: 12px; background: #fff;}
+.sound h3{position:absolute; left:195px; top:150px;}
 #container .rnb{float: right;width: 47%; height: 350px auto; background: #fff; padding: 10px;}
 .detail{height:204px;position:relative; width:100%; margin-bottom: 25px;}
 .detail h2{position:absolute; left:220px; top:10px;}
